@@ -13,6 +13,13 @@
 			border-radius: 10px;
 			font-size: 1.5em;
 		}
+    .help-block {
+      display: none;
+    }
+    .has-error .help-block {
+      display: block;
+    }
+
 	</style>
 </head>
 <body>
@@ -21,7 +28,7 @@
 
 	<section>
 
-      <form id="f1" action="#" class="form-inline form-group has-error">
+      <form id="f1" action="#" class="form-inline form-group ">
         <fieldset class="row">
         	<div class="col-md-6 ">
 						<p>What is <input class="form-control" id="f1-a" type="text" size="3">% of <input class="form-control" id="f1-b" type="text" size="7">?</p>
@@ -33,7 +40,7 @@
 	          <span class="remove">%</span>
 					</div>
 					<div class="col-md-12">
-						<p id="helpBlock1" class="help-block">Something went wrong!!!</p>
+						<p id="f1-help-block" class="help-block">Something went wrong!!!</p>
 					</div>
         </fieldset>
       </form>
@@ -50,6 +57,9 @@
           	<input id="f2-result" type="text" size="7" readonly="readonly">
           	<span>%</span>
 					</div>
+          <div class="col-md-12">
+            <p id="f2-help-block" class="help-block">Something went wrong!!!</p>
+          </div>
         </fieldset>
       </form>
 
@@ -64,6 +74,9 @@
 	          <input id="f3-result" type="text" size="7" readonly="readonly">
 	          <span>%</span>
 					</div>
+          <div class="col-md-12">
+            <p id="f3-help-block" class="help-block">Something went wrong!!!</p>
+          </div>
         </fieldset>
       </form>
 
@@ -73,6 +86,7 @@
 </div>
 
 	<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="js/percetage-calculator.js"></script>
 
 </body>
 </html>
