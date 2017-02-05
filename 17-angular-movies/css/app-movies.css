@@ -1,0 +1,22 @@
+.movie-container {
+  margin-top: 60px;
+}
+
+.thumbnails-movie {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.thumbnail-movie {
+   width:185px; 
+   margin:10px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.btn-default {
+  background-color: lightgrey;
+}
