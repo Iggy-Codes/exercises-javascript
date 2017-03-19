@@ -26,7 +26,7 @@ Resources:
 + https://developer.spotify.com/web-api/get-artists-albums/
 + https://developer.spotify.com/web-api/get-albums-tracks/
 
-[Here]('01-jquery-spotify-API/') is my solution
+[Here]('tree/master/01-jquery-spotify-API/') is my solution
 
 ### Percentage Calculator
 
@@ -34,7 +34,7 @@ Create the jQuery/Javascript code to make this works
 
 ![percentage view](02-percentatge-calculator/img/percentage-view.png)
 
-[Here]('02-percentatge-calculator/') is my solution
+[Here]('tree/master/02-percentatge-calculator/') is my solution
 
 ### Angular Movies
 
@@ -53,7 +53,7 @@ You can use the API https://www.themoviedb.org/documentation/api to get the data
 
 You'll need to register your app and get an API-KEY to be able to do request to their API
 
-[Here]('03-angular-movies/') is my solution
+[Here]('tree/master/03-angular-movies/') is my solution
 
 ## Motivation
 
